@@ -7,7 +7,7 @@
         sessionStorage.fonts = true;
       },
       google: {
-        families: ['Montserrat:300,400,400i,500,600,700']
+        families: ['Montserrat:300,400,400i,500,600,700','Roboto+Condensed:300,400,400i,500,700']
       },
       timeout: 2000
     };
@@ -20,10 +20,3 @@
     })(document);
   }
 })();
-
-
-//Roboto:300,400,400i,500,700  -  font-family: 'Roboto', sans-serif;
-//Roboto+Slab:300,400,700  -  font-family: 'Roboto Slab', serif;
-//Montserrat:300,400,400i,500,600,700  -  font-family: 'Montserrat', sans-serif;
-//Playfair+Display:400,400i,700  -  font-family: 'Playfair Display', serif;
-//EB+Garamond:400,400i,500,600,700  -  font-family: 'EB Garamond', serif;

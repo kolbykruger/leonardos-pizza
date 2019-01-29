@@ -1,3 +1,37 @@
+// Sticky Header
+window.addEventListener('scroll', function() {
+    stickyHeader()
+})
+
+// Get the navbar
+let header = document.querySelector('.headerWrap');
+
+// Get the offset position of the navbar
+const sticky = header.offsetTop;
+const stickyHeight = header.offsetHeight;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyHeader() {
+  if (window.pageYOffset >= (sticky + stickyHeight / 2)) {
+    header.classList.add('sticky')
+  } else {
+    header.classList.remove('sticky');
+  }
+}
+
+// Scrollmagic Animations
+$(document).ready(function() {
+    var controller = new ScrollMagic.Controller;
+    $(".gift .group, .locations .item").each(function() {
+        new ScrollMagic.Scene({
+            triggerElement: this,
+            triggerHook: 0.5,
+            reverse: false
+        }).setClassToggle(this, "active").addTo(controller)
+        .addTo(controller);
+    })
+});
+
 // Links return false
 $('a, button, input[type="submit"]').click(function() {
     return false
