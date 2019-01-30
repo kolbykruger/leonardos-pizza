@@ -121,7 +121,7 @@ a.button{background: #ef4538 !important; color: #fff; padding: 4px 8px; display:
 .nav .item.unique a {color: #fff; font-weight: 600; margin: 0; padding: 0 22px; height: 100%; display: flex; align-items: center; }
 .nav .item.unique:hover {transform: translateY(-2px); box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);}
 .nav .item.unique i {display: flex; width: 60px; height: 60px; align-items: center; justify-content: center; color: #fff; font-size: 2.4rem; margin: 0;}
-.nav .item.unique:nth-of-type(2) {background: green;}
+.nav .item.unique:nth-of-type(2) {background: #b0be2e;}
 
     @media (max-width: 900px) {
     .nav{display: none;}
@@ -178,7 +178,7 @@ a.button{background: #ef4538 !important; color: #fff; padding: 4px 8px; display:
 .slideshow .title{color: #fff; text-shadow: 0px 0px 10px rgba(0,0,0,1); margin: 0.25em 0; text-transform: uppercase; font-weight: 600; font-size: 6rem; letter-spacing: 1px; line-height: 100%; max-width: 60%;}
 .slideshow .strap {color: #fff; text-shadow: 0px 0px 21px rgba(0,0,0,1); margin: 0.5em 0; text-transform: uppercase; font-weight: 600; letter-spacing: 1px; line-height: 100%;}
 .slideshow .subtext{color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,.6); font-weight: 300; font-size: 1.8rem;}
-.slideshow .button a{padding: 12px; background: #0068b4; color: #fff; font-size: 2.2rem; font-weight: 300; box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);}
+.slideshow .button a{padding: 12px; background: #b0be2e !important; color: #fff; height: 64px; border-radius: 50px; font-size: 2.2rem; font-weight: 600; padding: 0 22px; border: 2px dashed #fff; box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08); display: flex; align-items: center; justify-content: center;}
 
 .slideshow .info_right .info{right: 0; text-align: right;}
 .slideshow .info_left .info{left: 0;}
